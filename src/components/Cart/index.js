@@ -55,7 +55,7 @@ const Cart = ({ visible, setVisibility }) => {
     <Wrapper visible={visible} ref={innerRef}>
       <Content>
         <Header>
-          <Title>Einkaufswagen</Title>
+          <Title>Giỏ hàng</Title>
           <CloseIcon color='white' onClick={setVisibility} />
         </Header>
         {checkout && lineItems.length > 0 ? (
@@ -72,7 +72,7 @@ const Cart = ({ visible, setVisibility }) => {
           </>
         ) : (
           <Notice>
-            Dein Einkaufswagen ist im Moment leer.
+            đang trống rỗng nhẹ tênh.
           </Notice>
         )}
       </Content>

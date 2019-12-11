@@ -117,7 +117,7 @@ const ProductForm = ({ product }) => {
         </ProductOptions>
       ))}
       <Button type="submit" disabled={!available || adding} onClick={handleAddToCart}>
-        {available ? 'In den Einkaufswagen legen' : 'Ausverkauft'}
+        {available ? 'Thêm vào giỏ hàng' : 'Đã bán hết'}
       </Button>
     </Wrapper>
   )
