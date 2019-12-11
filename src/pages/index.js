@@ -77,7 +77,7 @@ const Index = () => {
       image: data.slide1.childImageSharp.fluid,
       firstText: 'Mode & Fashion',
       secondText: 'Im Zeichen der Burg',
-      buttonLink: '/produkte',
+      buttonLink: '/sanpham',
       buttonText: 'Jetzt Shoppen',
       color: 'white',
     },
@@ -131,7 +131,7 @@ const Index = () => {
             <div>
               <h3>NUREINEBURG LABEL</h3>
               <p>
-                Alle unsere Produkte kommen mit dem offiziellen NurEinBerg Label. Angenäht mit Hand und <span role="img" aria-label="heart">❤️</span> in Nürnberg.
+                Alle unsere Sanpham kommen mit dem offiziellen NurEinBerg Label. Angenäht mit Hand und <span role="img" aria-label="heart">❤️</span> in Nürnberg.
               </p>
               <Button onClick={() => navigate('product/nureinberg-basic-black/')}>Zum Shirt</Button>
             </div>

@@ -17,8 +17,8 @@ module.exports = {
     ],
     primaryNav: [
       {
-        name: 'Produkte',
-        link: '/produkte'
+        name: 'Sản phẩm',
+        link: '/sanpham'
       },
       {
         name: 'Über Uns',
