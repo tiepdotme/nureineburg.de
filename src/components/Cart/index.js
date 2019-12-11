@@ -62,11 +62,11 @@ const Cart = ({ visible, setVisibility }) => {
           <>
             {lineItems}
             <SubtotalWrapper>
-              <Subtotal>Zwischensumme</Subtotal>
+              <Subtotal>Tạm tính</Subtotal>
               <Subtotal>{price}</Subtotal>
             </SubtotalWrapper>
             <Notice>
-              Rabattcodes, Versandkosten und Steuern<br/> werden bei der Bezahlung berechnet.
+              Giảm giá, chi phí vận chuyển<br/> sẽ được tính khi thanh toán.
             </Notice>
             <BuyButton onClick={handleCheckout}>Zur Kasse →</BuyButton>
           </>
