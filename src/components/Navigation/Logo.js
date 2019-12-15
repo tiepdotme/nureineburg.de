@@ -2,7 +2,7 @@ import React from 'react'
 
 import { LogoWrapepr } from './styles'
 
-const Logo = ({ color, height = 32, onClick }) => (
+const Logo = ({ color, height = 106, onClick }) => (
   <LogoWrapepr onClick={onClick}>
     <svg height={height} viewBox="0 0 202 106" style={{ color }}>
       <image id="image0" width="202" height="106" x="0" y="0"

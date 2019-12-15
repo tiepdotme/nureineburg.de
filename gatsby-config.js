@@ -6,13 +6,13 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `NurEineBurg`,
-    description: `Mode im Zeichen der Burg`,
+    title: `Kinh đô mẹ`,
+    description: `Hokage Homemade Solar and free energy`,
     author: `@alexanderhorl`,
     socialLinks: [
       {
-        name: 'Instagram',
-        link: 'https://instagram.com/nureineburg'
+        name: 'Facebook',
+        link: 'https://facebook.com/dehokage'
       }
     ],
     primaryNav: [
@@ -107,7 +107,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-97218477-1",
+        trackingId: "UA-IDHERE-1",
         anonymize: true,
         respectDNT: true,
       },
